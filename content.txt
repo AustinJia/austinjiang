@@ -1,0 +1,41 @@
+Home page
+  Photo of Hua
+  Keywords
+    Mechanical Engineer. Computer Scientist. Researcher.
+
+About me page
+  Show Hua's personality. INTJ. Traveling. Future goals. Hobbies.
+  Interests
+  Future goals
+    
+    PhD
+    Work full-time
+    Create own startup.
+  Personality (INTJ)
+  Work Ethics
+  Personal Hobbies
+    Traveling
+
+
+Research page
+
+
+Education page
+  This page will focus on all the knowledge Hua has and where did he go to school
+  Show overview
+    BS in ME  GPA
+    BS in CS  GPA
+  Physical schools
+    Iowa State University
+    HKUST
+    Georgia Tech
+    Japanese University
+  Online Courses
+    Ask him.
+
+Other relevant Experience
+  Tutoring
+  TA
+  Ask him
+
+Projects
