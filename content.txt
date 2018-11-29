@@ -26,12 +26,12 @@ Education page
     BS in ME  GPA
     BS in CS  GPA
   Physical schools
-    Iowa State University
-    HKUST
+    Iowa State University(I don't think we needs to mention that)
+    HKUST(I don't think we needs to mention that)
     Georgia Tech
-    Japanese University
+    Tohoku University(Japan)
   Online Courses
-    Ask him.
+    Udacity Robotics Term1.
 
 Other relevant Experience
   Tutoring
@@ -39,3 +39,8 @@ Other relevant Experience
   Ask him
 
 Projects
+  Autonomous Driving(AutoRally)
+  Robotic Simulation(Gazebo/V-Rep)
+  Google Glass Head-Display
+  Sawyer Robot
+
