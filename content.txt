@@ -4,10 +4,8 @@ Home page
     Mechanical Engineer. Computer Scientist. Researcher.
 
 About me page
-  Show Hua's personality. INTJ. Traveling. Future goals. Hobbies.
   Interests
   Future goals
-
     PhD
     Work full-time
     Create own startup.
@@ -16,9 +14,21 @@ About me page
   Personal Hobbies
     Traveling
 
-
 Research page
 
+  Research project 1
+    Research goal
+    Professor Hua researched under
+    Hua's contributions
+    Papers published
+    Other relevant media
+
+  Research project 2
+    Research goal
+    Professor Hua researched under
+    Hua's contributions
+    Papers published
+    Other relevant media
 
 Education page
   This page will focus on all the knowledge Hua has and where did he go to school
@@ -26,21 +36,18 @@ Education page
     BS in ME  GPA
     BS in CS  GPA
   Physical schools
-    Iowa State University(I don't think we needs to mention that)
-    HKUST(I don't think we needs to mention that)
     Georgia Tech
     Tohoku University(Japan)
   Online Courses
     Udacity Robotics Term1.
 
 Other relevant Experience
-  Tutoring
-  TA
-  Ask him
+  Tutor
+  Research Assistant
+  Other jobs and internships
 
 Projects
   Autonomous Driving(AutoRally)
   Robotic Simulation(Gazebo/V-Rep)
   Google Glass Head-Display
   Sawyer Robot
-
