@@ -4,7 +4,7 @@ Home page
     Mechanical Engineer. Computer Scientist. Researcher.
 
 About me page
-  Interests 
+  Interests
   Future goals
     PhD
     Work full-time
@@ -13,6 +13,9 @@ About me page
   Work Ethics
   Personal Hobbies
     Traveling
+    Hiking
+    Biking
+    Working out
 
 Research page
 
