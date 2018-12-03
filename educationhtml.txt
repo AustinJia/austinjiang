@@ -1,0 +1,48 @@
+Education section
+  Info I have so far...
+    Different courses taken
+    GPA
+    Degrees
+      CS
+      ME
+    Relevant Course Projects
+    Problems and questions:
+      -How does the Japanese university fit nicely into the layout.
+      -Should I completely separate course projects from this section.
+      -There are courses that ME and CS both have. Maybe add them in the bottom of the page as "Common courses?"
+      -Hua has graduated already with a BS in ME, but he hasn't yet graduated -with his BS in CS.
+      Think Bryann, think.
+      What courses do I add for relevant courses? Should I add them all? Hmmm, not really. I don't think I should.
+      Also, Hua's focus will be more in CS than ME. So the page should reflect that.
+      Should I add ISU? I think I should. Hua cannot just prettend that all his courses came from GT for his ME degree... They will find out later through his official transcript.
+      Find a naming convension for the courses he has taken.
+      Should I provide separate links for each course with a full description of the course? At least the most important part of each course?
+      Should I make a different section for all the MATH he knows?? I don't know...
+      How do I deal with research and tutoring? Should I make an enphasis of the university he did the research/job in? how will that reflect in the research webpage and project webpage? I'm getting a headache.
+      Maybe just have like an overview at the top which will be kind of what you show on a resume, then later just focus on each field. First CS, then ME, then on courses that overlap.
+      Maybe have it so that when the professor hovers over each course title, it will pop up like a more detailed description of the course. Then underline those courses where there are relevant projects maybe.
+      How about soft skills like statistics, giving presentations?
+      How about the research rewards Hua has earned?
+
+      What I need from Hua:
+      -List of Courses.(Find a way of being consistent with the courses.)
+
+
+      I. Overview of his education. Kind of like you would see it in a resume.
+        Degrees
+        GPA
+
+      II. Currently Learning or Current Focus of Learning or Current Interests.
+        Robotics, right? What else? Do you want to leave this part open, or do you want to constrain it? Befenits of leaving it open are that professors and employers that do not focus on your main interest could take you into consideration. Benefits of putting it is that professors and employers that focus on what you are interested in, will want you more
+
+      II. Courses Taken.
+
+        A. Computer Science courses: From advanced to basic. Or from most relevant to your interest to the least.
+
+        B. Mechanical Engineering Courses.
+
+        C. Sciences
+
+        D. Maths
+
+        D. Other Relevant Courses.
