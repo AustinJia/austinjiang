@@ -10,7 +10,7 @@
 
     <h1>Sawyer Robot Deburring Project</h1>
     <section>
-      <h1>Advisor: Dr.Larry Sweet</h1>
+      <h1>Advisor: <a href = "https://www.scl.gatech.edu/users/larry-sweet" >Dr.Larry Sweet </a></h1>
       <p>Make experiments to test the deburring ability of sawyer robot..</p>
 
       <p>Applied extensive robotics principles to assure critical test parameters (arm moving speed, moving type, variance cutting material, etc.) for Sawyer robots. Configured and operated robots for quantifying the accuracy of manufacturing deburring.</p>
@@ -19,36 +19,38 @@
         <li>moving type.</li>
         <li>variance cutting material</li>
       </ol>
-
       <p> Analyze the location of target object using the robots’ built-in camera</p>
-
+      <p>Below image shows tool approach wooden with variance approach angle</p>
       <img src= "../images/sawyerRobot/1.Variance_approach_angle.JPG" alt="">
-      <p> Since the increase length of battery, which made the radio box has to be smaller</p>
+      <p> with variance bit size</p>
+      <img src="../images/sawyerRobot/4.Variance_bit_size.JPG" alt="">
+      <p> Below image shows the location of camera in sawyer robot </p>
+      <img src="../images/sawyerRobot/3.Camera.JPG" alt="">
       <p> Below image shows the radio box and batteries </p>
       <img src="../images/sawyerRobot/2.Stack_Wooden_Block.JPG" alt="">
-      <p> Blow image shows the assembly view of radio box </p>
-      <img src="../images/sawyerRobot/3.Camera.JPG" alt="">
-      <p> Radio Enclosed View</p>
-      <img src="../images/sawyerRobot/4.Variance_bit_size.JPG" alt="">
 
     </section>
     <section>
       <h1>Video</h1>
-      <p>XXXX.</p>
-
-      <p>Computer Vision section:</p>
-        <iframe width="560" height="315" src="https://youtu.be/BC1mZP8bsrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>3. The video is the primary result what I analyze from the real-time image captured by AutoRally's Built in camera
-        in the video, there are three sections</p>
-        <iframe width="560" height="315" src="https://youtu.be/3NhkICfRbUM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://youtu.be/GvF2Y46sTvs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://youtu.be/wOHo1DIhyWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <ol>
-        <li>upper section is the original image</li>
-        <li>the middle section is the processing image</li>
-        <li>the lower section is the processed image using chan-vase algorithm.</li>
-      </ol>
-      	-still not incorporated into the project, but Austin developed the first steps to work towards making it useful.</p>
+        <p>Below Videos shows how Sawyer robot deburring metal: 
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BC1mZP8bsrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        Below Videos shows how Sawyer robot deburring wooden with slow moving speed model
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3NhkICfRbUM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        Below Videos shows how Sawyer robot deburring wooden with fast moving speed model
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GvF2Y46sTvs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        Below Videos shows how Sawyer robot stack wooden block
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wOHo1DIhyWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        Lessons Learned
+        <ol>
+          <li>Wood is easier to cut, but this creates more cut variability</li>
+          <li>Metal is much more difficult to cut, but this minimizes the variability and leaves a smoother cut</li>
+          <li>Tool placement is just as important as finding the right combination of variables for the cut.</li>
+        </ol>
+        Future Improvements
+        <ol>
+          <li>We need to mount the drill on the arm more tightly</li>
+          <li>The vision system was having issues setting the points properly after finding the block</li>
+          <li>Further testing should be done on metal using more powerful tools.</li>
     </section>
     <!-- <section>
       <h1>Potentially useful information</h1>
