@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Robotics Simulation Project(Internship)</title>
+    <!-- <link rel="stylesheet" type="text/css" href="me/css/autorally.css"> -->
+    <link rel="stylesheet" type="text/css" href="../css/autorally.css">
+  </head>
+  <body>
+
+    <h1>Robotics Simulation Project</h1>
+    <section>
+      <h1>Advisor: Dr.Kazuya Yoshida </h1>
+      <p>Goal:</p>
+      <ol>
+        simulation legged robot to be able to walking in the lunar enviorment.
+      </ol>
+      <p>What I did:</p>
+      <ol>
+          <li>Review of the state of the art in sampling based planning applied to legged robots(RRT)</li>
+          <li>Use RRT algorithm to simulate the path-planning through Python/C++ and ROS for Turtlebot3 in gazebo environment</li>
+          <li>Built the rosbubble robot with laserscan to navigation in the lunar environment (height-map) in V-Rep environment.</li>
+      </ol>
+      
+      <p> create a rough terrain using blender</p>
+      <img src="../images/roboticsSimulation/1.roughTerrain.JPG" alt="">
+      <p>tutlebot3 radar scaner in gazebo </p>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zKAUEPLEEYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+      <p>tutlebot3 teleoperation in gazebo </p>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8naEykn4NxI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+    <section>
+        <p>
+        Lessons Learned
+        <ol>
+          <li>Since the legged robot (DOF>3) is too complex for a laptop, switched to legged robot for simulation</li>
+          <li>After the internship, had a good understanding of ROS</li>
+          <li>Have some experience with motion planning(ompl) library </li>
+        </ol>
+        Future Work:
+        <ol>
+          <li>A lot, including getting more familiar with ompl work.</li>
+        </ol>
+    </section>
+    <!-- <section>
+      <h1>Potentially useful information</h1>
+      <p>Future work:
+      Using machine learning algorithm to mark the lane based on large amount of the images, then separate the lane.
+
+      -raw data -> manipulate to make data readable for the ML -> train AI to AI -> AI learns.
+      -added manual data so that the AI could learn first before it does its thing on its own.
+
+
+
+
+      To do list and random notes.:
+
+      Add text to radio-boxv2 naming the
+      -calliper instrument usage.
+      -do in radio-box-v4 the same thing you did in v2 and then delete v2. I decided to dive deeper into the topics of autonomous vehicles by researching under Dr.James Rehg’s AutoRally project, initiating the C++ codebase for the lane detection component , which based on the real-time images captured by AutoRally’s built-in camera.
+
+
+      Mechanical build: updated bought cars to match the latest design by removing the gasoline section and installing the battery section.
+
+      Mechanical Design:
+        1. using Inventor to redesign Radio Box GPS box to hold Arduino, KillSwitch and RC_Receiver.[Since the Rally car select a bigger size of battery, which made us has too redesign the radio box.]
+        2. Using Inventor to redesign the electronic box to secure allow Arduino Due and USB breakout board.
+      -get picture of it.
+
+      Computer Vision section:
+      3. The video(AutoRally_ComputerVision, https://youtu.be/VZUxi6FWKKY) is the primary result what I analyze from the real-time image captured by AutoRally's Built in camera
+      in the video, there are three sectition
+        1. upper section is the original image
+        2. the middle section is the processing image
+        3. the lower section is the processed image using chan-vase algorithm.
+        -still not incorporated into the project, but Hua developed the first steps to work towards making it useful.
+      Future work:
+      Using machine learning algorithm to mark the lane based on large amount of the images, then separate the lane.
+
+      -raw data -> manipulate to make data readable for the ML -> train AI to AI -> AI learns.
+      -added manual data so that the AI could learn first before it does its thing on its own.
+
+
+
+
+      To do list and random notes.:
+
+      Add text to radio-boxv2 naming the
+      -calliper instrument usage.
+      -do in radio-box-v4 the same thing you did in v2 and then delete v2.</p>
+    </section> -->
+
+
+
+
+
+  </body>
+</html>
