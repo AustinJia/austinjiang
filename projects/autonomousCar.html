@@ -2,57 +2,52 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>AutoRally Project</title>
+    <title>Self-Built Autonomous Car</title>
     <!-- <link rel="stylesheet" type="text/css" href="me/css/autorally.css"> -->
     <link rel="stylesheet" type="text/css" href="../css/autorally.css">
   </head>
   <body>
 
-    <h1>AutoRally Project</h1>
+    <h1>Self-Built Autonomous Car</h1>
     <section>
-      <h1>Advisor: <a href = "https://rehg.org" >Dr.James Rehg </a> 
-        <a href = "https://sites.google.com/site/drewspaul/" >Paul Drews</a>
-        <a href = "http://www.briangoldfain.com/" >Brain Goldfain</a>
-      </h1>
-
-      <h1>Mechanical Work</h1>
-      <p>Mechanical build: updated bought cars to match the latest design by removing the gasoline section and installing the battery section.</p>
-      <p> Before changes</p>
-      <img src="../images/autorally/6.build_v1.JPG" alt="">
-      <p> After chnages </p>
-      <img src="../images/autorally/7.build_v3.JPG" alt="">
-
-      <p>Mechanical Design:</p>
+      <p>This is one of my favorite project, I spent 80+ hours in this project</p>
+      <p>Goal:</p>
       <ol>
-        <li>using Inventor to redesign Radio Box GPS box to hold Arduino, KillSwitch and RC_Receiver.[Since the Rally car select a bigger size of battery, which made us has too redesign the radio box.]</li>
-        <li>Using Inventor to redesign the electronic box to secure allow Arduino Due and USB breakout board.</li>
+        Make a autonomous car drive to the brightest spot
       </ol>
-      -get picture of it.</p>
-      <p> the position of Radio Box in the whole car</p>
-      <img src= "../images/autorally/1.Zoom_in.png" alt="">
-      <p> Since the increase length of battery, which made the radio box has to be smaller</p>
-      <p> Below image shows the radio box and batteries </p>
-      <img src="../images/autorally/2.RadioBox_v1.JPG" alt="">
-      <p> Blow image shows the assembly view of radio box </p>
-      <img src="../images/autorally/3.RadioBox_v4.JPG" alt="">
-      <p> Radio Enclosed View</p>
-      <img src="../images/autorally/5.RadioBox_v3.JPG" alt="">
+      <p>Hardware:</p>
+      <ol>
+        <li>Two touch click (left, right) knows there is collision with a obstacle or not</li>
+        <li>Three Light Sensor (left, center, right)</li>
+        <li>Two motor</li>
+        <li>H-Bridge circuits with Arduino to control the motor move forward and backward.</li>
+        <li>Design in CAD and then laser cutting the wooden board.</li>
 
+      </ol>
+      <p> Version 1: </p>
+      <p>Below image shows autonomous car version 1</p>
+      <img src= "../images/self_build_autonomous_Car/1.AutonomousCar_Version1.JPG" alt="">
+      <p>Below video shows the running test of version 1</p>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tPCWJjK-o3Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p> Version 2: </p>
+      <p> Autonomous car version 2 inside view </p>
+      <img src="../images/self_build_autonomous_Car/3.AutonomousCar_version2.JPG" alt="">
+      <p> Autonomous car version 2 outside view  </p>
+      <img src="../images/self_build_autonomous_Car/4.AutonomousCar_version2.JPG" alt="">
+      <p>Below video shows the running test of version 2</p>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VFv6NS1D5NY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
     <section>
-      <h1>Software Work</h1>
-      <p>I decided to dive deeper into the topics of autonomous vehicles by researching under Dr.James Rehg’s AutoRally project, initiating the Python/C++ codebase for the lane detection component, which is based on the real-time images captured by AutoRally’s built-in camera.</p>
-
-      <p>Computer Vision section:
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VZUxi6FWKKY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      3. The video is the primary result what I analyze from the real-time image captured by AutoRally's Built in camera
-      in the video, there are three sections
-      <ol>
-        <li>upper section is the original image</li>
-        <li>the middle section is the processing image</li>
-        <li>the lower section is the processed image using chan-vase algorithm.</li>
-      </ol>
-      	-still not incorporated into the project, but Austin developed the first steps to work towards making it useful.</p>
+      <p>
+        Why version 1 failed:
+        <ol>
+          The design of version 1 was made in CAD, however I failed the conside the tolerance of manufacture. therefore version 1 is too small, the limited space was uable to fit battery and arduino board. Therefore, I made updated version (version 2)
+        </ol>
+        Why version 2 failed:
+        <ol>
+          failed to aware the difference between servo and motor. The response of light sensor is very fast, however the response of servo is not. In another word, the control of servo is always slower than the radical change of light condition. In addition, for this specific kind of servo that i used in this project, the range of servo’s speed is limited, which means even sent very different speed command to left and right servo, the both servo might runs with equal speed, which made the robot hard to turn.
+        </ol>
+      </p>
     </section>
     <!-- <section>
       <h1>Potentially useful information</h1>
