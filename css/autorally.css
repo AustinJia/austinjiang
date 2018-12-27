@@ -1,20 +1,60 @@
 body
 {
+  display: relative;
   margin: 0 auto;
-  width: 600px;
+  font-family: Arial;
+}
+header
+{
+  display: absolute;
 }
 nav, nav ul
 {
   display: flex;
+  list-style-type: none;
+
+
 }
 nav
 {
-  width: 100vw;
+  width: 100%;
+  background-color: black;
+  color: white;
+  /* text-decoration: none; */
+
+
+}
+nav h1
+{
+  line-height: 75px;
+}
+nav ul
+{
+
   /* background-color: red; */
+  right: 0;
 }
 nav li
 {
   width: 100px;
+  height: 75px;
+  line-height: 75px;
+  text-align: right;
+  /* background-color: blue; */
+}
+nav a
+{
+  text-decoration: none;
+  color: white;
+}
+nav a:hover
+{
+  text-decoration: underline;
+}
+main
+{
+  width: 700px;
+  margin: 0 auto;
 }
 p
 {
