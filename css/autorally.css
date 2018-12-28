@@ -80,9 +80,22 @@ img
   width: 350px;
   height: auto;
   /* flex-shrink: 0; */
+  /* display: inline-block; */
 }
 .before-and-after
 {
   display: flex;
   align-items: center;
+}
+footer
+{
+  color: white;
+  background-color: black;
+  margin: 0;
+  height: 100px;
+}
+footer p
+{
+  line-height: 100px;
+  margin: auto 50px;
 }
