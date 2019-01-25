@@ -118,6 +118,7 @@ footer
   background-color: black;
   color: white;
   height: 6rem;
+  position: relative;
 }
 footer p
 {
@@ -125,4 +126,17 @@ footer p
   margin: 0 4rem;
   /* max-width: 75rem; */
   line-height: 6rem;
+}
+footer .icons
+{
+  position: absolute;
+  right: 4rem;
+  top: 0.5rem;
+  height: 5.5rem;
+}
+footer a
+{
+  margin: 0 0.5rem;
+  color: white;
+  text-decoration: none;
 }
