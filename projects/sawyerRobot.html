@@ -3,122 +3,131 @@
   <head>
     <meta charset="utf-8">
     <title>Sawyer Robot Deburring Project</title>
-    <!-- <link rel="stylesheet" type="text/css" href="me/css/autorally.css"> -->
-    <link rel="stylesheet" type="text/css" href="../css/autorally.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
   </head>
   <body>
 
-    <nav role="navigation">
-      <h1><a href="../index.html">Austin Jiang</a></h1>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <!-- <li><a href="../about_me.html">About Me</a></li> -->
-        <li><a href="../education.html">Education</a></li>
-        <li><a href="../project.html">Projects</a></li>
-        <li><a href="../contact.html">Contact Me</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav role="navigation">
+        <h1><a href="../index.html">Austin Jiang</a></h1>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <!-- <li><a href="../about_me.html">About Me</a></li> -->
+          <li><a href="../education.html">Education</a></li>
+          <li><a href="../project.html">Projects</a></li>
+          <li><a href="../contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
 
-    <p><a href="../project.html">Projects</a> &gt; Sawyer Robot Deburring Project</p>
-    <h1>Sawyer Robot Deburring Project</h1>
-    <h2>Advisors</h2>
-    <ul>
-      <li><a href="https://www.scl.gatech.edu/users/larry-sweet">Dr. Larry Sweet</a></li>
-    </ul>
-    <section>
-      <p>Make experiments to test the deburring ability of sawyer robot.</p>
+      <h2>Sawyer Robot Deburring Project</h2>
+    </header>
 
-      <p>Applied extensive robotics principles to assure critical test parameters (arm moving speed, moving type, variance cutting material, etc.) for Sawyer robots. Configured and operated robots for quantifying the accuracy of manufacturing deburring.</p>
-      <ol>
-        <li>arm moving speed.</li>
-        <li>moving type.</li>
-        <li>variance cutting material</li>
-      </ol>
-      <p> Analyze the location of target object using the robots’ built-in camera</p>
-      <p>Below image shows tool approach wooden with variance approach angle</p>
-      <img src= "../images/sawyerRobot/1.Variance_approach_angle.JPG" alt="">
-      <p> with variance bit size</p>
-      <img src="../images/sawyerRobot/4.Variance_bit_size.JPG" alt="">
-      <p> Below image shows the location of camera in sawyer robot </p>
-      <img src="../images/sawyerRobot/3.Camera.JPG" alt="">
-      <p> Below image shows the radio box and batteries </p>
-      <img src="../images/sawyerRobot/2.Stack_Wooden_Block.JPG" alt="">
+    <main>
 
-    </section>
-    <section>
-      <h1>Video</h1>
-        <p>Below Videos shows how Sawyer robot deburring metal:
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BC1mZP8bsrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        Below Videos shows how Sawyer robot deburring wooden with slow moving speed model
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3NhkICfRbUM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        Below Videos shows how Sawyer robot deburring wooden with fast moving speed model
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GvF2Y46sTvs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        Below Videos shows how Sawyer robot stack wooden block
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wOHo1DIhyWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        Lessons Learned
+      <section>
+        <p>Make experiments to test the deburring ability of sawyer robot.</p>
+
+        <p>Applied extensive robotics principles to assure critical test parameters (arm moving speed, moving type, variance cutting material, etc.) for Sawyer robots. Configured and operated robots for quantifying the accuracy of manufacturing deburring.</p>
         <ol>
-          <li>Wood is easier to cut, but this creates more cut variability</li>
-          <li>Metal is much more difficult to cut, but this minimizes the variability and leaves a smoother cut</li>
-          <li>Tool placement is just as important as finding the right combination of variables for the cut.</li>
+          <li>arm moving speed.</li>
+          <li>moving type.</li>
+          <li>variance cutting material</li>
         </ol>
-        Future Improvements
-        <ol>
-          <li>We need to mount the drill on the arm more tightly</li>
-          <li>The vision system was having issues setting the points properly after finding the block</li>
-          <li>Further testing should be done on metal using more powerful tools.</li>
-        </ol>
-    </section>
-    <!-- <section>
-      <h1>Potentially useful information</h1>
-      <p>Future work:
-      Using machine learning algorithm to mark the lane based on large amount of the images, then separate the lane.
+        <p> Analyze the location of target object using the robots’ built-in camera</p>
+        <p>Below image shows tool approach wooden with variance approach angle</p>
+        <img src= "../images/sawyerRobot/1.Variance_approach_angle.JPG" alt="">
+        <p> with variance bit size</p>
+        <img src="../images/sawyerRobot/4.Variance_bit_size.JPG" alt="">
+        <p> Below image shows the location of camera in sawyer robot </p>
+        <img src="../images/sawyerRobot/3.Camera.JPG" alt="">
+        <p> Below image shows the radio box and batteries </p>
+        <img src="../images/sawyerRobot/2.Stack_Wooden_Block.JPG" alt="">
 
-      -raw data -> manipulate to make data readable for the ML -> train AI to AI -> AI learns.
-      -added manual data so that the AI could learn first before it does its thing on its own.
+      </section>
+      <section>
+        <h1>Video</h1>
+          <p>Below Videos shows how Sawyer robot deburring metal:
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BC1mZP8bsrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          Below Videos shows how Sawyer robot deburring wooden with slow moving speed model
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3NhkICfRbUM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          Below Videos shows how Sawyer robot deburring wooden with fast moving speed model
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GvF2Y46sTvs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          Below Videos shows how Sawyer robot stack wooden block
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wOHo1DIhyWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          Lessons Learned
+          <ol>
+            <li>Wood is easier to cut, but this creates more cut variability</li>
+            <li>Metal is much more difficult to cut, but this minimizes the variability and leaves a smoother cut</li>
+            <li>Tool placement is just as important as finding the right combination of variables for the cut.</li>
+          </ol>
+          Future Improvements
+          <ol>
+            <li>We need to mount the drill on the arm more tightly</li>
+            <li>The vision system was having issues setting the points properly after finding the block</li>
+            <li>Further testing should be done on metal using more powerful tools.</li>
+          </ol>
+      </section>
+      <!-- <section>
+        <h1>Potentially useful information</h1>
+        <p>Future work:
+        Using machine learning algorithm to mark the lane based on large amount of the images, then separate the lane.
 
-
-
-
-      To do list and random notes.:
-
-      Add text to radio-boxv2 naming the
-      -calliper instrument usage.
-      -do in radio-box-v4 the same thing you did in v2 and then delete v2. I decided to dive deeper into the topics of autonomous vehicles by researching under Dr.James Rehg’s AutoRally project, initiating the C++ codebase for the lane detection component , which based on the real-time images captured by AutoRally’s built-in camera.
-
-
-      Mechanical build: updated bought cars to match the latest design by removing the gasoline section and installing the battery section.
-
-      Mechanical Design:
-        1. using Inventor to redesign Radio Box GPS box to hold Arduino, KillSwitch and RC_Receiver.[Since the Rally car select a bigger size of battery, which made us has too redesign the radio box.]
-        2. Using Inventor to redesign the electronic box to secure allow Arduino Due and USB breakout board.
-      -get picture of it.
-
-      Computer Vision section:
-      3. The video(AutoRally_ComputerVision, https://youtu.be/VZUxi6FWKKY) is the primary result what I analyze from the real-time image captured by AutoRally's Built in camera
-      in the video, there are three sectition
-        1. upper section is the original image
-        2. the middle section is the processing image
-        3. the lower section is the processed image using chan-vase algorithm.
-        -still not incorporated into the project, but Hua developed the first steps to work towards making it useful.
-      Future work:
-      Using machine learning algorithm to mark the lane based on large amount of the images, then separate the lane.
-
-      -raw data -> manipulate to make data readable for the ML -> train AI to AI -> AI learns.
-      -added manual data so that the AI could learn first before it does its thing on its own.
+        -raw data -> manipulate to make data readable for the ML -> train AI to AI -> AI learns.
+        -added manual data so that the AI could learn first before it does its thing on its own.
 
 
 
 
-      To do list and random notes.:
+        To do list and random notes.:
 
-      Add text to radio-boxv2 naming the
-      -calliper instrument usage.
-      -do in radio-box-v4 the same thing you did in v2 and then delete v2.</p>
-    </section> -->
-
+        Add text to radio-boxv2 naming the
+        -calliper instrument usage.
+        -do in radio-box-v4 the same thing you did in v2 and then delete v2. I decided to dive deeper into the topics of autonomous vehicles by researching under Dr.James Rehg’s AutoRally project, initiating the C++ codebase for the lane detection component , which based on the real-time images captured by AutoRally’s built-in camera.
 
 
+        Mechanical build: updated bought cars to match the latest design by removing the gasoline section and installing the battery section.
 
-    <footer><p>&copy; Copyright 2018 - Present. All rights reserved. Updated @ 12/27/2018</p></footer>
+        Mechanical Design:
+          1. using Inventor to redesign Radio Box GPS box to hold Arduino, KillSwitch and RC_Receiver.[Since the Rally car select a bigger size of battery, which made us has too redesign the radio box.]
+          2. Using Inventor to redesign the electronic box to secure allow Arduino Due and USB breakout board.
+        -get picture of it.
+
+        Computer Vision section:
+        3. The video(AutoRally_ComputerVision, https://youtu.be/VZUxi6FWKKY) is the primary result what I analyze from the real-time image captured by AutoRally's Built in camera
+        in the video, there are three sectition
+          1. upper section is the original image
+          2. the middle section is the processing image
+          3. the lower section is the processed image using chan-vase algorithm.
+          -still not incorporated into the project, but Hua developed the first steps to work towards making it useful.
+        Future work:
+        Using machine learning algorithm to mark the lane based on large amount of the images, then separate the lane.
+
+        -raw data -> manipulate to make data readable for the ML -> train AI to AI -> AI learns.
+        -added manual data so that the AI could learn first before it does its thing on its own.
+
+
+
+
+        To do list and random notes.:
+
+        Add text to radio-boxv2 naming the
+        -calliper instrument usage.
+        -do in radio-box-v4 the same thing you did in v2 and then delete v2.</p>
+      </section> -->
+
+      <h2>Advisors</h2>
+      <aside>
+        <ul class="advisors"> Advisors:
+          <li><a href="https://www.scl.gatech.edu/users/larry-sweet">Dr. Larry Sweet</a></li>
+        </ul>
+      </aside>
+
+    </main>
+
+
+    <footer>
+      <p>Copyright &copy; 2018 - 2019. All rights reserved. Last updated on Jan 25th, 2019.</p>
+    </footer>
+
   </body>
 </html>
