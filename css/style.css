@@ -1,131 +1,128 @@
-.fixit
-{
-  background-color: yellow;
+@font-face {
+  font-family: "Geo Sans Light";
+  src: url(fonts/geo_sans_light/GeosansLight.ttf) format("truetype");
 }
 body
 {
-  display: relative;
-  margin: 0 auto;
-  font-family: Arial;
+  margin: 0;
+  font-family: "Geo Sans Light", monospace;
+  background-color: #f8f8f8;
 }
 header
 {
-  display: absolute;
-}
-nav, nav ul
-{
-  display: flex;
-  list-style-type: none;
-
 
 }
 nav
 {
-  width: 100%;
+  list-style-type: none;
   background-color: black;
-  color: white;
-  /* text-decoration: none; */
-
-
+  position: relative;
 }
-nav h1
+header h1
 {
-  line-height: 50px;
+  margin: 0;
+  padding: 1rem;
+  display: inline-block;
+  font-size: 4rem;
 }
 nav ul
 {
-
-  /* background-color: red; */
+  color: white;
+  list-style-type: none;
+  display: inline-block;
+  /* background-color: blue; */
+  position: absolute;
   right: 0;
+  bottom: 0;
+  font-size: 1.2rem;
 }
 nav li
 {
-  width: 100px;
-  height: 50px;
-  line-height: 50px;
-  text-align: right;
-  /* background-color: blue; */
+  display: inline-block;
+  /* background-color: yellow; */
+  /* width: 6rem; */
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 nav a
 {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
 }
 nav a:hover
 {
+  color: white;
   text-decoration: underline;
+
+}
+nav ul a:hover
+{
+  /* color: black; */
+  font-size: 1.3rem;
+  transition: 0.1s;
+}
+header h2
+{
+  font-size: 2.2rem;
+  margin: 4rem;
 }
 main
 {
-  width: 700px;
+  max-width: 50rem;
+  /* background-color: yellow; */
   margin: 0 auto;
+}
+section h1
+{
+  font-size: 3rem;
 }
 p
 {
-  font-size: 16px;
-  line-height: 1.5;
-  /* background: blue; */
+  font-size: 1.2rem;
 }
-iframe
+.before-and-after
 {
-  display: block;
-  margin: 50px 0;
+  display: flex;
 }
-h3
+main ul
 {
-  /* align-self: flex-start; */
+  /* list-style-type: square; */
+  font-size: 1.2rem;
+  /* list-style-position: inside; */
+}
+main li
+{
+  margin-bottom: 1.5rem;
 }
 img
 {
-  width: 350px;
-  height: auto;
-  /* flex-shrink: 0; */
-  /* display: inline-block; */
+  /* display: none; */
+  /* max-width: 15rem; */
+  max-height: 20rem;
+  border: 1px solid black;
 }
-
-.before-and-after
+figcaption
 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 50px 1fr;
-  grid-gap: 0 20px;
-  /* background-color: red; */
+  font-style: italic;
 }
-h3.before, h3.after
+.advisors
 {
-  grid-row-start: 1;
+  list-style-type: none
 }
-img.before
+.advisors li
 {
-  /* width: 350px;
-  height: auto; */
-  /* flex-shrink: 0; */
-  /* display: inline-block; */
-  grid-column-start: 1;
-}
-img.after
-{
-  /* width: 350px;
-  height: auto; */
-  /* flex-shrink: 0; */
-  /* display: inline-block; */
-  grid-column-start: 2;
+  display: inline;
 }
 footer
 {
-  color: white;
   background-color: black;
-  margin: 0;
-  height: 100px;
+  color: white;
+  height: 6rem;
 }
 footer p
 {
-  line-height: 100px;
-  margin: auto 50px;
-}
-
-/* djhsfjdshf */
-h1
-{
-  text-transform: uppercase; 
+  /* margin-bottom: 0 */
+  margin: 0 4rem;
+  /* max-width: 75rem; */
+  line-height: 6rem;
 }
